@@ -20,8 +20,8 @@ This GitHub Action uses a version of the Zeebe Node client that requires Node ve
 
 | Operation | Required Parameters | Optional Parameters |
 | --- | --- | --- |
-| `deployProcess` | **One of**: `bpmnFilename` _or_ `bpmnDir` | `verbose`, `quiet` |
-| `deployResource` | **One of**: `resourceFilename` _or_ `resourceDir` | `verbose`, `quiet` |
+| `deployProcess` | **One of**: `bpmnFilename` _or_ `bpmnDirectory` | `verbose`, `quiet` |
+| `deployResource` | **One of**: `resourceFilename` _or_ `resourceDirectory` | `verbose`, `quiet` |
 | `createProcessInstance` | `bpmnProcessId` |  `variables`, `verbose`, `quiet` |
 |`createProcessInstanceWithResult` | `bpmnProcessId`, `requestTimeoutSeconds` | `variables`, `verbose`, `quiet` |
 | `publishMessage` | `messageName` | `timetoLive`, `variables`, `correlationKey`, `verbose`, `quiet` |
